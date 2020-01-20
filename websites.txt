@@ -1,0 +1,11 @@
+www.logged.com
+Username: Rocky
+Password: Balboa
+
+www.sample.com
+Username: example
+Password: ExEmPluS+
+
+www.dotdotdot.com
+Username: Spot
+Password: 1337_Code_Rocks!

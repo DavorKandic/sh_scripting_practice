@@ -1,0 +1,6 @@
+FirstName,LastName,Age,Sex,HairColor
+John,Smith,27,M,black
+Sussie,Sweet,19,F,blonde
+Pumba,Pig,5,M,brown
+Cliff,Booth,37,M,blonde
+Vicky,Lords,29,F,red
