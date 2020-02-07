@@ -1,5 +1,2 @@
-test2.txt
-ta.txt
-ip.txt
-iplist.txt
+*.txt
 *.py
