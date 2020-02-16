@@ -1,0 +1,8 @@
+#!bin/bash
+# Translates text-file to leet-speech
+
+fn="$1"
+out=$(cat $fn | tr l 1 | tr e 3 | tr t 7 | tr h '#')
+touch "$fn-leet"
+cat $out > "$fn-leet"
+exit

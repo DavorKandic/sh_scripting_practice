@@ -1,0 +1,15 @@
+#!/bin/bash
+# Changes digits to strings, e.g.: 1 -> "one"
+
+# Funcs:
+change()
+{
+out=$(cat $1 | sed -e 's/1/one /g' | sed -e 's/2/two /g' | sed -e 's/3/three /g' | sed -e 's/4/four /g' | sed -e 's/5/five /g' | sed -e 's/6/six /g' | sed -e 's/7/seven /g' | sed -e 's/8/eight /g' | sed -e 's/9/nine /g' | sed -e 's/0/zero /g')
+echo "$out"
+}
+
+file=$1
+touch $1-translated
+exp_file=$1-translated
+change $file > $exp_file
+exit

@@ -1,0 +1,4 @@
+#!/bin/bash
+# Number of unique users
+who | awk '{print $1}' | sort | uniq | wc -l
+exit

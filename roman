@@ -1,0 +1,4 @@
+#!/bin/bash
+# Translates arabic numerals to roman
+
+sed -e 's/1/I/g' $1
