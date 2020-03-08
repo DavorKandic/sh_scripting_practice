@@ -1,7 +1,9 @@
-#!/usr/bin/zsh
+#!/bin/bash
+# Using echo with -args
 
-echo "This is a simple message"
-# echo without arguments prints an empty line
+echo -n "New "   # -n removes the newline char from the end of the line
+echo "York"
 echo
-echo -n "Hello "   # -n parametar supress adding of a newline character on the end of string"
-echo "World"
+
+echo -e "1\t2"   # -e interprets escape characters
+echo
